@@ -1,0 +1,109 @@
+ <simulation>
+    <app type="ControlApp" />
+    
+    <robot type="Khepera3">
+        <supervisor type="khepera3.K3Supervisor" />
+        <pose x="0.5" y="0" theta="1.5708" />
+    </robot>
+	
+	<robot type="Khepera33">
+        <supervisor type="khepera33.K3Supervisor" />
+        <pose x="-0.5" y="0" theta="1.5708" />
+    </robot>
+	
+	 <robot type="Khepera30">
+        <supervisor type="khepera30.K3Supervisor" />
+        <pose x="1" y="1" theta="1.5708" />
+    </robot>
+	
+    <robot type="Khepera31">
+        <supervisor type="khepera31.K3Supervisor" />
+        <pose x="-1" y="1" theta="1.5708" />
+    </robot>
+	
+	
+	
+	 <robot type="Khepera330">
+        <supervisor type="khepera330.K3Supervisor" />
+        <pose x="0.5" y="1" theta="3.1417" />
+    </robot>
+	
+    <robot type="Khepera331">
+        <supervisor type="khepera331.K3Supervisor" />
+        <pose x="1" y="0.5" theta="1.5708" />
+    </robot>
+	
+		    
+    <obstacle>
+        <pose x="-0.4" y="0.2" theta="0" />
+        <geometry>
+            <point x="0" y="0" />
+            <point x="0.8" y="0" />
+            <point x="0.8" y="0.2" />
+            <point x="0" y="0.2" />
+        </geometry>
+    </obstacle>
+    
+    <obstacle>
+        <pose x="0" y="-0.6" theta="0" />
+        <geometry>
+            <point x="0" y="0" />
+            <point x="0.4" y="0" />
+            <point x="0.4" y="0.2" />
+            <point x="0" y="0.2" />
+        </geometry>
+    </obstacle>
+    
+    <obstacle>
+        <pose x="0" y="-0.6" theta="1.5708" />
+        <geometry>
+            <point x="-0.4" y="0.2" />
+            <point x="-0.6" y="0.2" />
+            <point x="-0.6" y="0.6" />
+            <point x="-0.4" y="0.6" />
+        </geometry>
+    </obstacle>
+    
+    
+    
+    <obstacle>
+        <pose x="-1.6" y="-1.5" theta="0" />
+        <geometry>
+            <point x="0" y="0" />
+            <point x="3" y="0" />
+            <point x="3" y="0.1" />
+            <point x="0" y="0.1" />
+        </geometry>
+    </obstacle>
+    
+    <obstacle>
+        <pose x="-1.5" y="-1.4" theta="1.5708" />
+        <geometry>
+            <point x="0" y="0" />
+            <point x="3" y="0" />
+            <point x="3" y="0.1" />
+            <point x="0" y="0.1" />
+        </geometry>
+    </obstacle>
+    
+        <obstacle>
+        <pose x="1.5" y="-1.5" theta="1.5708" />
+        <geometry>
+            <point x="0" y="0" />
+            <point x="3" y="0" />
+            <point x="3" y="0.1" />
+            <point x="0" y="0.1" />
+        </geometry>
+    </obstacle>
+	
+     <obstacle>
+        <pose x="-1.5" y="1.5" theta="0" />
+        <geometry>
+            <point x="0" y="0" />
+            <point x="3" y="0" />
+            <point x="3" y="0.1" />
+            <point x="0" y="0.1" />
+        </geometry>
+    </obstacle>
+    
+</simulation>
